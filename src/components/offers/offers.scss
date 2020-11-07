@@ -1,0 +1,33 @@
+.offers {
+  padding: 25px 0 75px;
+  &__title {
+    font-size: 30px;
+    line-height: 43px;
+    margin-bottom: 50px;
+    padding: 0 32px;
+  }
+  &__item {
+    padding: 15px;
+    margin: 20px;
+    &--img {
+      height: 50px;
+      width: 50px;
+      margin: 0 auto;
+      transition: 0.25s all ease;
+      &:hover {
+          scale: 1.2;
+      }
+      margin-bottom: 15px;
+      @media (min-width: 568px) {
+        height: 100px;
+        width: 100px;
+      }
+      img {
+        border-radius: 6px;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}

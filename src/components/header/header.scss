@@ -1,0 +1,60 @@
+.header {
+  height: 80px;
+  @media (min-width: 1200px) {
+    height: 95px;
+  }
+  &__button {
+    &.btn-outline-primary {
+      color: #3b5998;
+      border-color: #3b5998;
+      &:hover, &:active, &:focus {
+        background: #3b5998;
+        color: white;
+      }
+    }
+  }
+}
+.nav {
+  &-link {
+    cursor: pointer;
+    color: #3b5998 !important;
+
+  }
+}
+
+.navbar {
+  justify-content: space-between;
+  padding: 0.5rem 3rem;
+
+  &-brand {
+    line-height: 1.4375;
+    font-size: 30px;
+    padding: 0;
+    color: #3b5998 !important;
+    cursor: default;
+  }
+  &-collapse {
+    &.show {
+      z-index: 123;
+      position: absolute;
+      left: 0px;
+      top: 80px;
+      width: 100%;
+      transition: 0.35s height ease;
+      height: 91vh;
+      @media (min-width: 1200px) {
+        top: 95px;
+        height: 85vh;
+      }
+    }
+  }
+  &-toggler {
+    outline: none !important;
+  }
+}
+.dropdown-item {
+  cursor: pointer;
+}
+.dropdown-menu {
+  min-width: auto;
+}

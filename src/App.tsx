@@ -1,24 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.scss";
+
+import { Header } from "./components/header/header";
+import { BackgroundDescription } from "./components/background-description/background-description";
+import { Products } from "./components/products/products";
+import { Catalogue } from "./components/catalogue/catalogue";
+import { About } from "./components/about/about";
+import { Offers } from "./components/offers/offers";
+import { Subscribe } from "./components/subscribe/subscribe";
+import { Contacts } from "./components/contacts/contacts";
+import { Partner } from "./components/partner/partner";
+import { Footer } from "./components/footer/footer";
+import i18n from "./i18n";
 
 function App() {
+  const lng = localStorage.getItem('lng');
+  if (!!lng) {
+    i18n.changeLanguage(lng);
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <BackgroundDescription />
+      <Products />
+      <Catalogue />
+      <About />
+      <Offers />
+      <Subscribe />
+      <Contacts />
+      <Partner />
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,51 @@
+.contacts {
+  padding-top: 75px;
+  padding-bottom: 110px;
+  &__name {
+    font-size: 23px;
+  }
+  &__address {
+      white-space: pre-wrap;
+  }
+  &__email {
+    margin-top: 10px;
+  }
+  &__title {
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+  &__grid {
+    margin-bottom: 40px;
+    &-item {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    &-image {
+      margin-bottom: 15px;
+      margin-top: 15px;
+      width: 290px;
+      height: 290px;
+      transition: 0.2s all ease;
+      &:hover {
+          scale: 1.05;
+      }
+      @media (min-width: 768px) {
+        height: 190px;
+      }
+      @media (min-width: 1200px) {
+        height: 200px;
+        width: 310px;
+      }
+      img {
+        object-fit: cover;
+        border-radius: 6px;
+        box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.25),
+          1px 1px 3px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

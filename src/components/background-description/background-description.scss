@@ -1,0 +1,49 @@
+.background-description {
+  //   background-image: url("images/bg.jpeg") 50.94% 46.03% cover no-repeat;
+
+  height: 680px;
+  @media (min-width: 768px) {
+    height: 647px;
+  }
+  @media (min-width: 1200px) {
+    height: 544px;
+  }
+  &__image {
+    object-fit: cover;
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+  }
+  &__wrapper {
+    position: relative;
+    background: linear-gradient(
+      0deg,
+      rgba(143, 143, 143, 0.76) 0%,
+      rgba(67, 67, 67, 0.76) 100%
+    );
+  }
+  &__header {
+    font-size: 38px;
+    font-weight: 700;
+    text-align: start;
+    line-height: 53px;
+    color: #f7f7f7;
+  }
+  &__description {
+    font-size: 20px;
+    line-height: 30px;
+    color: #f7f7f7;
+    text-align: start;
+  }
+  &__content {
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+}

@@ -1,0 +1,15 @@
+.footer {
+    height: 210px;
+    background: #dfe3ee;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &__title {
+        font-size: 31px;
+    }
+    @media (min-width: 568px) {
+        align-items: flex-start;
+        padding-left: 16px;
+    }
+}
