@@ -14,6 +14,10 @@ export class ProductItem extends React.Component<{
   handleBuyClick(id: string) {
     (document.querySelector(`#imageModal${id} button`) as HTMLDivElement).click();
     (document.getElementById(`itemCheckoutBtn` + id) as HTMLDivElement).click();
+
+  }
+  onBuyClick(id: string) {
+    (document.getElementById(`itemCheckoutBtn` + id) as HTMLDivElement).click();
   }
   render() {
     return (
@@ -33,7 +37,7 @@ export class ProductItem extends React.Component<{
             <span className="product-item__sign">€</span>
             <span>{this.props.product.price}</span>
           </div>
-          <div className="btn btn-primary">{this.props.t?.("Купить")}</div>
+          <div className="btn btn-primary" onClick={this.onBuyClick.bind(this, this.props.index.toString())}>{this.props.t?.("Купить")}</div>
         </div>
 
         <Modal
