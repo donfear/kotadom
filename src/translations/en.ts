@@ -5,7 +5,7 @@ export const enTranslations = {
   "Производим доступные и качественные когтеточки и домики для ваших любимцев.":
     "We produce affordable and high-quality scratching posts and houses for your pets.",
   "Популярные продукты": "Popular Products",
-  "Стильная когтеточка  с домиком": "Stylish scratching post with a house",
+  "Стильная когтеточка с домиком": "Stylish scratching post with a house",
   "Большая когтеточка с домиком": "Large scratching post with a house",
   "Средняя когтеточка с домиком": "Medium scratching post with a house",
   "Маленькая когтеточка без домика": "Small scratching post without a house",

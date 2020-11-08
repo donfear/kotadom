@@ -33,7 +33,7 @@ export class Header extends React.Component<IComponentProps> {
                   localStorage.setItem('lng', language)
                 }}
               >
-                {language}
+                {language.toUpperCase()}
               </div>
             ))}
           </div>

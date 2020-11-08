@@ -74,7 +74,7 @@ export class Partner extends React.Component<IComponentProps> {
             <div className="col-md-12">
               <input
                 type="submit"
-                className="btn btn-outline-success btn-send"
+                className="btn btn-primary btn-send"
                 value={this.props.t?.('Отправить')}
               />
             </div>

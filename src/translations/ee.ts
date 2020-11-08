@@ -6,7 +6,7 @@ export const eeTranslations = {
   "Производим доступные и качественные когтеточки и домики для ваших любимцев.":
     "Toodame teie lemmikloomadele taskukohaseid ja kvaliteetseid kriimustusposti ja maju.",
   "Популярные продукты": "Populaarsed tooted",
-  "Стильная когтеточка  с домиком": "Stiilne majaga kraapimispost",
+  "Стильная когтеточка с домиком": "Stiilne majaga kraapimispost",
   "Большая когтеточка с домиком": "Suur majaga kraapimispost",
   "Средняя когтеточка с домиком": "Keskmine majaga kraapimispost",
   "Маленькая когтеточка без домика": "Väike kraapimispost ilma majata",
