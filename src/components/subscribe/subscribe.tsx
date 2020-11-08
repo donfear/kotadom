@@ -30,7 +30,7 @@ export class Subscribe extends React.Component<
       <div className="subscribe">
         <div className="subscribe__content">
           <div className="subscribe__title">
-            {this.props.t?.('Подписывайтесь на нашу рассылку, и первым получайте новые предложения !')}
+            {this.props.t?.('Подписывайтесь на нашу рассылку, и первым получайте новые предложения')}
           </div>
           <div>
             <form

@@ -22,8 +22,8 @@ export const eeTranslations = {
   "Возможность оплаты на месте": "Kohapeal maksmise võimalus",
   "Возможность монтажа на месте": "Kohapeal paigaldamise võimalus",
   "Постоянно обновляемая линейка": "Pidevalt värskendatud rida",
-  "Подписывайтесь на нашу рассылку, и первым получайте новые предложения !":
-    "Telli meie uudiskiri, ja saate esimesena uusi pakkumisi!",
+  "Подписывайтесь на нашу рассылку, и первым получайте новые предложения":
+    "Telli meie uudiskiri, ja saate esimesena uusi pakkumisi",
   "Отлично!": "Suurepärane!",
   Эмаил: "Email",
   Подписаться: "Telli",

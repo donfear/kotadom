@@ -21,8 +21,7 @@ export const enTranslations = {
   "Возможность оплаты на месте": "Possibility of payment on site",
   "Возможность монтажа на месте": "Possibility of installation on site",
   "Постоянно обновляемая линейка": "Constantly updated line",
-  "Подписывайтесь на нашу рассылку, и первым получайте новые предложения !":
-    "Subscribe to our newsletter, and be the first to receive new offers!",
+  "Подписывайтесь на нашу рассылку, и первым получайте новые предложения": "Subscribe to our newsletter, and be the first to receive new offers",
   "Отлично!": "Excellent!",
   Эмаил: "Email",
   Подписаться: "Subscribe",
