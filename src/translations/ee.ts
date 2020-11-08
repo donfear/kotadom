@@ -25,6 +25,7 @@ export const eeTranslations = {
   "Подписывайтесь на нашу рассылку, и первым получайте новые предложения":
     "Telli meie uudiskiri, ja saate esimesena uusi pakkumisi",
   "Отлично!": "Suurepärane!",
+  Купить: "Osta",
   Эмаил: "Email",
   Подписаться: "Telli",
   "Подписка оформлена": "Tellitud",

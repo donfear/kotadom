@@ -25,6 +25,7 @@ export const enTranslations = {
   "Отлично!": "Excellent!",
   Эмаил: "Email",
   Подписаться: "Subscribe",
+  Купить: "Buy",
   "Подписка оформлена": "Subscribed",
   Контакты: "Contacts",
   "Офис в Тарту": "Office in Tartu",
