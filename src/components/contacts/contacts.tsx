@@ -62,8 +62,8 @@ export class Contacts extends React.Component<
                   <img src={contact.src} alt="" />
                 )}
               </div>
-              <div className="contacts__address">{contact.address}</div>
-              <div className="contacts__email">{contact.email}</div>
+              <div className="contacts__address description">{contact.address}</div>
+              <div className="contacts__email description">{contact.email}</div>
             </div>
           ))}
         </div>

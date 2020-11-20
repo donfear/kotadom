@@ -1,18 +1,27 @@
 @import "~bootstrap/scss/bootstrap";
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+.logo {
+  font-family: 'Monoton', cursive !important;
+}
+
 .btn-primary {
   outline: none !important;
   background: white !important;
   color: #3b5998 !important;
   border-color: #3b5998 !important;
 
-&:hover,  &:active,&:focus {
+  &:hover,
+  &:active,
+  &:focus {
     background: #3b5998 !important;
     color: white !important;
   }
 }
 * {
-  font-family: Montserrat, sans-serif;
+  font-family: Montserrat, sans-serif ;
+}
+.description {
+  font-family: Open-Sans, sans-serif !important;
 }
 .App {
   overflow-x: hidden;
@@ -22,12 +31,6 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -43,13 +46,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

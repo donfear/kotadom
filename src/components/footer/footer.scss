@@ -1,15 +1,49 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
+
 .footer {
-    height: 210px;
-    background: #dfe3ee;
-    padding: 50px 0;
+  background: #dfe3ee;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  &__title {
+    font-size: 31px;
+  }
+  &__contact {
+    margin-top: 32px;
+    margin-left: 16px;
+
+}
+  @media (min-width: 568px) {
+    align-items: flex-start;
+    padding-left: 16px;
+    &__contact {
+    margin-left: 0;
+    }
+  }
+
+  &__contacts {
+    font-family: "Segoe UI", Helvetica Neue, Tahoma, sans-serif;
+
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    &__title {
-        font-size: 31px;
+    .fa:before {
+      opacity: 0.7;
     }
-    @media (min-width: 568px) {
-        align-items: flex-start;
-        padding-left: 16px;
+    margin: 0 !important;
+    padding: 0 !important;
+    .fa {
+        width: 44px;
+        height: 44px;
+        margin-right: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+    li {
+      display: flex;
+      align-items: center;
+      list-style-type: none;
+    }
+  }
 }

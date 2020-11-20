@@ -1,6 +1,6 @@
 .background-description {
   //   background-image: url("images/bg.jpeg") 50.94% 46.03% cover no-repeat;
-
+  overflow: hidden;
   height: 680px;
   @media (min-width: 768px) {
     height: 647px;
@@ -17,8 +17,11 @@
     z-index: -1;
     top: 0;
     left: 0;
+    animation: scaleee 2s ease-in-out;
   }
   &__wrapper {
+    overflow: hidden;
+
     position: relative;
     background: linear-gradient(
       0deg,
@@ -34,6 +37,7 @@
     color: #f7f7f7;
   }
   &__description {
+    margin-top: 16px;
     font-size: 20px;
     line-height: 30px;
     color: #f7f7f7;
@@ -45,5 +49,14 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+    overflow: hidden;
+  }
+}
+@keyframes scaleee {
+  0% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
   }
 }

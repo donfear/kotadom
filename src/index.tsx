@@ -3,11 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
-
 import "popper.js";
 import "jquery";
 import "bootstrap";
-
 
 ReactDOM.render(
   <React.StrictMode>

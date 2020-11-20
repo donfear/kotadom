@@ -18,7 +18,7 @@ export class BackgroundDescription extends React.Component<IComponentProps> {
             <div className="background-description__header">
               {this.props.t?.('Качество, которое понравится вашему питомцу')}
             </div>
-            <div className="background-description__description">
+            <div className="background-description__description description">
               {this.props.t?.('Производим доступные и качественные когтеточки и домики для ваших любимцев.')}
             </div>
           </div>

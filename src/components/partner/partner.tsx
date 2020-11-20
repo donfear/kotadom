@@ -10,7 +10,7 @@ export class Partner extends React.Component<IComponentProps> {
       <div className="partner">
         <form className="partner__form" id="contact-form" role="form">
           <div className="partner__message">
-            {this.props.t?.('Если у Вас есть вопросы, или хотите оформить заказ, ждем Ваших сообщений !')}
+            {this.props.t?.('Если у Вас есть вопросы, ждем Ваших сообщений !')}
           </div>
           <div className="row">
             <div className="col">

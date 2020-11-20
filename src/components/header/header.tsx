@@ -10,7 +10,7 @@ export class Header extends React.Component<IComponentProps> {
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light rounded header">
-        <a className="navbar-brand">{this.props.t?.("КотАдом")}</a>
+        <a className="navbar-brand logo">{this.props.t?.("KotAdom")}</a>
         <div className="nav-item dropdown">
           <button
             className="header__button btn btn-outline-primary"
