@@ -37,5 +37,5 @@ export const eeTranslations = {
   "Введите эмаил*": "Sisesta e-posti aadress *",
   "Введите номер телефона*": "Sisestage oma telefoninumber *",
   "Введите полное имя*": "Sisesta täisnimi *",
-  "Если у Вас есть вопросы, или хотите оформить заказ, ждем Ваших сообщений !": "Kui teil on küsimusi, siis ootame teie sõnumeid!",
+  "Если у Вас есть вопросы, или хотите оформить заказ, ждем Ваших сообщений!": "Kui teil on küsimusi, siis ootame teie sõnumeid!",
 };

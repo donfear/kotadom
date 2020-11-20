@@ -35,6 +35,6 @@ export const enTranslations = {
   "Введите эмаил*": "Enter email *",
   "Введите номер телефона*": "Enter phone number *",
   "Введите полное имя*": "Enter full name *",
-  "Если у Вас есть вопросы, или хотите оформить заказ, ждем Ваших сообщений !":
+  "Если у Вас есть вопросы, или хотите оформить заказ, ждем Ваших сообщений!":
     "If you have questions, we are waiting for your messages!",
 };
