@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/kotadom/static/css/main.0382a115.chunk.css",
-    "main.js": "/kotadom/static/js/main.f5cb0c35.chunk.js",
-    "main.js.map": "/kotadom/static/js/main.f5cb0c35.chunk.js.map",
+    "main.js": "/kotadom/static/js/main.4343f0b4.chunk.js",
+    "main.js.map": "/kotadom/static/js/main.4343f0b4.chunk.js.map",
     "runtime-main.js": "/kotadom/static/js/runtime-main.b67569d6.js",
     "runtime-main.js.map": "/kotadom/static/js/runtime-main.b67569d6.js.map",
     "static/js/2.d21ba0d4.chunk.js": "/kotadom/static/js/2.d21ba0d4.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.b67569d6.js",
     "static/js/2.d21ba0d4.chunk.js",
     "static/css/main.0382a115.chunk.css",
-    "static/js/main.f5cb0c35.chunk.js"
+    "static/js/main.4343f0b4.chunk.js"
   ]
 }
