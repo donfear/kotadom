@@ -12,12 +12,31 @@ export class ProductItem extends React.Component<{
   t?: any;
 }> {
   handleBuyClick(id: string) {
-    (document.querySelector(`#imageModal${id} button`) as HTMLDivElement).click();
+    (document.querySelector(
+      `#imageModal${id} button`
+    ) as HTMLDivElement).click();
     (document.getElementById(`itemCheckoutBtn` + id) as HTMLDivElement).click();
-
   }
   onBuyClick(id: string) {
     (document.getElementById(`itemCheckoutBtn` + id) as HTMLDivElement).click();
+  }
+
+  getPriceComponent(price: string) {
+    const splitedPrice: string[] = price.split(".");
+    return (
+      <div className="product-item__cost">
+        <span className="product-item__cost--amount-before">
+          <span className="product-item__cost--amount">
+            €{+splitedPrice[0] * 2},<sup>{splitedPrice[1]}</sup>
+          </span>
+        </span>
+        <div>
+          <span className="product-item__cost--amount-after">
+            €{splitedPrice[0]},<sup>{splitedPrice[1]}</sup>
+          </span>
+        </div>
+      </div>
+    );
   }
   render() {
     return (
@@ -33,11 +52,14 @@ export class ProductItem extends React.Component<{
           {this.props.t?.(this.props.product.name)}
         </div>
         <div className="product-item__price">
-          <div>
-            <span className="product-item__sign">€</span>
-            <span>{this.props.product.price}</span>
+          {this.getPriceComponent(this.props.product.price)}
+
+          <div
+            className="btn btn-primary"
+            onClick={this.onBuyClick.bind(this, this.props.index.toString())}
+          >
+            {this.props.t?.("Купить")}
           </div>
-          <div className="btn btn-primary" onClick={this.onBuyClick.bind(this, this.props.index.toString())}>{this.props.t?.("Купить")}</div>
         </div>
 
         <Modal
@@ -67,7 +89,7 @@ export class ProductItem extends React.Component<{
         <button
           style={{ display: "none" }}
           data-toggle="modal"
-          id={`itemCheckoutBtn`+this.props.index}
+          id={`itemCheckoutBtn` + this.props.index}
           data-target={`#itemCheckout` + this.props.index}
         ></button>
         <Modal

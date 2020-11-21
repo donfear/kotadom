@@ -12,6 +12,7 @@
     font-size: 23px;
     font-weight: bold;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     &--modal {
       margin-top: 16px;
@@ -56,6 +57,39 @@
       width: 100%;
       height: 100%;
     }
+  }
+  &__cost {
+    display: flex;
+    align-items: center;
+    &--amount {
+      &-before {
+          color: rgba(darkgray, 0.5);
+          text-decoration: none;
+          position: relative;
+          font-size: 12px;
+          line-height: 16px;
+          height: 16px;
+          font-weight: 100;
+          &:after {
+            content: " ";
+            display: block;
+            width: 100%;
+            border-top: 1px solid rgba(darkgray, 0.8);
+            height: 2px;
+            position: absolute;
+            bottom: 8px;
+            left: 0;
+            transform: rotate(20deg);
+        }
+      }
+      &-after {
+        font-size: 20px;
+        font-weight: 700;
+        text-decoration: none;
+        padding-left: 8px;
+      }
+    }
+  
   }
 }
 .modal-header {
