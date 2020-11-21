@@ -9,7 +9,7 @@ export const eeTranslations = {
   "Стильная когтеточка с домиком": "Stiilne majaga kraapimispost",
   "Большая когтеточка с домиком": "Suur majaga kraapimispost",
   "Средняя когтеточка с домиком": "Keskmine majaga kraapimispost",
-  "Маленькая когтеточка без домика": "Väike kraapimispost ilma majata",
+  "Маленькая когтеточка без домика": "Kraapimispost ilma majata",
   "Наш каталог": "Meie kataloog",
   "Скачать PDF": "Laadi alla PDF",
   "О нас": "Meist",
@@ -37,5 +37,5 @@ export const eeTranslations = {
   "Введите эмаил*": "Sisesta e-posti aadress *",
   "Введите номер телефона*": "Sisestage oma telefoninumber *",
   "Введите полное имя*": "Sisesta täisnimi *",
-  "Если у Вас есть вопросы, или хотите оформить заказ, ждем Ваших сообщений!": "Kui teil on küsimusi, siis ootame teie sõnumeid!",
+  "Если у Вас есть вопросы, ждем Ваших сообщений!": "Kui teil on küsimusi, siis ootame teie sõnumeid!",
 };

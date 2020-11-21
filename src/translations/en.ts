@@ -7,8 +7,8 @@ export const enTranslations = {
   "Популярные продукты": "Popular Products",
   "Стильная когтеточка с домиком": "Stylish scratching post with a house",
   "Большая когтеточка с домиком": "Large scratching post with a house",
-  "Средняя когтеточка с домиком": "Medium scratching post with a house",
-  "Маленькая когтеточка без домика": "Small scratching post without a house",
+  "Средняя когтеточка с домиком": "Scratching post with a house",
+  "Маленькая когтеточка без домика": "Scratching post without a house",
   "Наш каталог": "Our catalog",
   "Скачать PDF": "Download PDF",
   "О нас": "About us",
@@ -35,6 +35,6 @@ export const enTranslations = {
   "Введите эмаил*": "Enter email *",
   "Введите номер телефона*": "Enter phone number *",
   "Введите полное имя*": "Enter full name *",
-  "Если у Вас есть вопросы, или хотите оформить заказ, ждем Ваших сообщений!":
+  "Если у Вас есть вопросы, ждем Ваших сообщений!":
     "If you have questions, we are waiting for your messages!",
 };
