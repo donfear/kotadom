@@ -3,6 +3,7 @@ import "./header.scss";
 import i18n from "../../i18n";
 import { IComponentProps } from "../../types/component.interface";
 import { translation } from "../../decorators/translation.decorator";
+import { SvgIcon } from "../svg-icon/svg-icon";
 @translation()
 export class Header extends React.Component<IComponentProps> {
   private languages = ["ee", "ru", "en"];
@@ -10,7 +11,10 @@ export class Header extends React.Component<IComponentProps> {
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light rounded header">
-        <a className="navbar-brand logo">{this.props.t?.("KotAdom")}</a>
+        <h1 className="navbar-brand logo">
+          {this.props.t?.("KotAdom")}
+        </h1>
+        <SvgIcon className="header__paw" name={'heart-tail'}/>
         <div className="nav-item dropdown">
           <button
             className="header__button btn btn-outline-primary"

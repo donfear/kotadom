@@ -13,11 +13,15 @@ import { Partner } from "./components/partner/partner";
 import { Footer } from "./components/footer/footer";
 import i18n from "./i18n";
 
-function App() {
+function setLanguage() {
   const lng = localStorage.getItem('lng');
   if (!!lng) {
     i18n.changeLanguage(lng);
   }
+}
+
+function App() {
+  setLanguage();
   return (
     <div className="App">
       <Header />

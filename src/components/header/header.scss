@@ -1,4 +1,9 @@
 .header {
+  &__paw {
+    left: 185px;
+    top: 14px;
+    position: absolute;
+  }
   height: 80px;
   @media (min-width: 1200px) {
     height: 95px;
@@ -23,6 +28,7 @@
 }
 
 .navbar {
+  position: relative;
   justify-content: space-between;
   padding: 0.5rem;
 
@@ -30,6 +36,7 @@
     line-height: 1.4375;
     font-size: 30px;
     padding: 0;
+    margin-bottom: 0;
     color: #3b5998 !important;
     cursor: default;
   }

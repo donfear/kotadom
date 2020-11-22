@@ -91,7 +91,9 @@ export class ProductItem extends React.Component<{
           data-toggle="modal"
           id={`itemCheckoutBtn` + this.props.index}
           data-target={`#itemCheckout` + this.props.index}
-        ></button>
+        >
+          modalHiddenBtn{this.props.index}
+        </button>
         <Modal
           id={`itemCheckout` + this.props.index}
           title={this.props.product.name}

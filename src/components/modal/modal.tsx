@@ -14,9 +14,9 @@ export class Modal extends React.Component<IModalProps> {
           <div className="modal-content">
             <div className="modal-header">
               {!!this.props.title && (
-                <h5 className="modal-title">
+                <span className="modal-title">
                   {this.props.t?.(this.props.title)}
-                </h5>
+                </span>
               )}
 
               <button

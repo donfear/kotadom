@@ -1,20 +1,28 @@
 .subscribe {
-    background: #8b9dc3;
-    color: #fff;
-    &__content {
-        padding-top: 60px;
-        padding-bottom: 75px;
-    }
-    &__title {
-        font-size: 30px;
-        padding: 0 16px;
-    }
-    &__group {
-        max-width: 570px;
-        margin: 0 auto;
-        padding: 16px;
-    }
+  background: #435584;
+  color: #fff;
+  &__icon {
+    position: absolute;
+    top: -23px;
+    left: 6px;
+  }
+  &__content {
+    padding-top: 60px;
+    padding-bottom: 75px;
+  }
+  &__title {
+    font-size: 30px;
+    padding: 0 16px;
+  }
+  &__group {
+    position: relative;
+
+    max-width: 570px;
+    margin: 0 auto;
+    padding: 16px 24px;
+    margin-top: 16px;
+  }
 }
 .alert {
-    margin-top: 16px;
+  margin-top: 16px;
 }

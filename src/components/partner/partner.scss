@@ -7,7 +7,7 @@
 
   @media (min-width: 568px) {
     border: none;
-    background: #8b9dc3;
+    background: #435584;
     color: #fff;
   }
 
@@ -15,6 +15,7 @@
   margin: 0 auto;
 
   &__form {
+    position: relative;
     margin: 0 auto;
     max-width: 280px;
     @media (min-width: 568px) {
@@ -23,6 +24,16 @@
       padding: 70px;
       color: #212529;
       background: white;
+    }
+  }
+  &__cat {
+    position: absolute;
+    top: -40px;
+    rotate: -2deg;
+    left: 0;
+    display: block;
+    @media (max-width: 568px) {
+      display: none;
     }
   }
 }

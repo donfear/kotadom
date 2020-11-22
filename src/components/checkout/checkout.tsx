@@ -10,18 +10,18 @@ export class Checkout extends React.Component<ICheckoutProps> {
     return (
       <div className="row">
         <div className="col-md-4 order-md-2 mb-4">
-          <h4 className="d-flex justify-content-between align-items-center mb-3">
+          <div className="d-flex justify-content-between align-items-center mb-3">
             <span className="text-muted">Your cart</span>
             <span className="badge badge-secondary badge-pill">1</span>
-          </h4>
+          </div>
           <ul className="list-group mb-3">
             <li className="list-group-item d-flex justify-content-between lh-condensed">
               <div>
-                <h6 className="my-0">{this.props.name}</h6>
+                <span className="my-0">{this.props.name}</span>
               </div>
               <span className="text-muted">€{this.props.price}</span>
             </li>
-            
+
             <li className="list-group-item d-flex justify-content-between">
               <span>Total (EUR)</span>
               <strong>€{this.props.price}</strong>
@@ -29,11 +29,13 @@ export class Checkout extends React.Component<ICheckoutProps> {
           </ul>
         </div>
         <div className="col-md-8 order-md-1">
-          <h4 className="mb-3">Billing address</h4>
+          <span className="mb-3">Billing address</span>
           <form className="needs-validation">
             <div className="row">
               <div className="col-md-6 mb-3">
                 <input
+                  aria-label={"first name"}
+                  aria-required="true"
                   type="text"
                   className="form-control"
                   id="firstName"
@@ -44,6 +46,8 @@ export class Checkout extends React.Component<ICheckoutProps> {
               <div className="col-md-6 mb-3">
                 <input
                   type="text"
+                  aria-label={"last name"}
+                  aria-required="true"
                   className="form-control"
                   id="lastName"
                   placeholder="Last name"
@@ -54,6 +58,8 @@ export class Checkout extends React.Component<ICheckoutProps> {
 
             <div className="mb-3">
               <input
+                aria-label={"email"}
+                aria-required="true"
                 type="email"
                 className="form-control"
                 id="email"
@@ -63,6 +69,8 @@ export class Checkout extends React.Component<ICheckoutProps> {
 
             <div className="mb-3">
               <input
+               aria-label={'address'}
+               aria-required="true"
                 type="text"
                 className="form-control"
                 id="address"
@@ -74,6 +82,8 @@ export class Checkout extends React.Component<ICheckoutProps> {
             <div className="row">
               <div className="col-md-5 mb-3">
                 <select
+                 aria-label={'country'}
+                 aria-required="true"
                   className="custom-select d-block w-100"
                   id="country"
                   required
@@ -86,6 +96,8 @@ export class Checkout extends React.Component<ICheckoutProps> {
               <div className="col-md-3 mb-3">
                 <input
                   type="text"
+                  aria-label={'zip'}
+                  aria-required="true"
                   className="form-control"
                   id="zip"
                   placeholder="11111"
@@ -94,12 +106,14 @@ export class Checkout extends React.Component<ICheckoutProps> {
               </div>
             </div>
             <hr />
-            <h4>Payment</h4>
+            <span>Payment</span>
 
             <div className="d-block my-3">
               <div className="custom-control custom-radio">
                 <input
                   id="credit"
+                  aria-label={'payment'}
+                  aria-required="true"
                   name="paymentMethod"
                   type="radio"
                   className="custom-control-input"
@@ -112,6 +126,8 @@ export class Checkout extends React.Component<ICheckoutProps> {
                 <input
                   id="debit"
                   name="paymentMethod"
+                  aria-label={'payment-method'}
+                  aria-required="true"
                   type="radio"
                   className="custom-control-input"
                   required
@@ -122,6 +138,8 @@ export class Checkout extends React.Component<ICheckoutProps> {
                   id="paypal"
                   name="paymentMethod"
                   type="radio"
+                  aria-label={'payment-method-pp'}
+                  aria-required="true"
                   className="custom-control-input"
                   required
                 />
@@ -133,6 +151,8 @@ export class Checkout extends React.Component<ICheckoutProps> {
                   type="text"
                   className="form-control"
                   id="cc-name"
+                  aria-label={'card owner name'}
+                  aria-required="true"
                   placeholder="Card owner"
                   required
                 />
@@ -140,6 +160,8 @@ export class Checkout extends React.Component<ICheckoutProps> {
               <div className="col-md-6 mb-3">
                 <input
                   type="text"
+                  aria-label={'cc number'}
+                  aria-required="true"
                   className="form-control"
                   id="cc-number"
                   placeholder="Card number"
@@ -153,6 +175,8 @@ export class Checkout extends React.Component<ICheckoutProps> {
                   type="text"
                   className="form-control"
                   id="cc-expiration"
+                  aria-label={'card expiration'}
+                  aria-required="true"
                   placeholder="Card expiration"
                   required
                 />
@@ -162,6 +186,8 @@ export class Checkout extends React.Component<ICheckoutProps> {
                   type="text"
                   className="form-control"
                   id="cc-cvv"
+                  aria-label={'cvv'}
+                  aria-required="true"
                   placeholder="CVV"
                   required
                 />

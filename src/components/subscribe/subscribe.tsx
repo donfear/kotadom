@@ -2,6 +2,7 @@ import React from "react";
 import "./subscribe.scss";
 import { translation } from "../../decorators/translation.decorator";
 import { IComponentProps } from "../../types/component.interface";
+import { SvgIcon } from "../svg-icon/svg-icon";
 
 @translation()
 export class Subscribe extends React.Component<
@@ -40,9 +41,12 @@ export class Subscribe extends React.Component<
                 this.handleSubmit();
               }}
             >
+             <SvgIcon className="subscribe__icon" name={'balance'}/>
               <div className="form-group">
                 <input
                   type="email"
+                  aria-label={'email'}
+                  aria-required="true"
                   value={this.state.email}
                   className="form-control"
                   onChange={this.handleChange.bind(this)}
