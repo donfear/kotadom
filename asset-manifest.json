@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/kotadom/static/css/main.8b8f98fd.chunk.css",
+    "main.css": "/kotadom/static/css/main.4cee9123.chunk.css",
     "main.js": "/kotadom/static/js/main.aacfd5d9.chunk.js",
     "main.js.map": "/kotadom/static/js/main.aacfd5d9.chunk.js.map",
     "runtime-main.js": "/kotadom/static/js/runtime-main.b67569d6.js",
@@ -8,13 +8,13 @@
     "static/js/2.3df197ee.chunk.js": "/kotadom/static/js/2.3df197ee.chunk.js",
     "static/js/2.3df197ee.chunk.js.map": "/kotadom/static/js/2.3df197ee.chunk.js.map",
     "index.html": "/kotadom/index.html",
-    "static/css/main.8b8f98fd.chunk.css.map": "/kotadom/static/css/main.8b8f98fd.chunk.css.map",
+    "static/css/main.4cee9123.chunk.css.map": "/kotadom/static/css/main.4cee9123.chunk.css.map",
     "static/js/2.3df197ee.chunk.js.LICENSE.txt": "/kotadom/static/js/2.3df197ee.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b67569d6.js",
     "static/js/2.3df197ee.chunk.js",
-    "static/css/main.8b8f98fd.chunk.css",
+    "static/css/main.4cee9123.chunk.css",
     "static/js/main.aacfd5d9.chunk.js"
   ]
 }
