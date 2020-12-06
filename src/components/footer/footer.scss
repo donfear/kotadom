@@ -1,15 +1,18 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
 
 .footer {
-  background: #dfe3ee;
+  background: #fca006;
   padding: 50px 0;
   display: flex;
   flex-direction: column;
+  color: white;
+
   justify-content: space-between;
   &__title {
     font-size: 31px;
   }
   &__contact {
+    color: white;
     margin-top: 32px;
     margin-left: 16px;
 

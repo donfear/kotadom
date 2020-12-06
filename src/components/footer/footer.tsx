@@ -8,7 +8,7 @@ export class Footer extends React.Component<IComponentProps> {
   render() {
     return (
       <div className="footer">
-        <div className="footer__title logo">{this.props.t?.("KotAdom")}</div>
+        <div className="footer__title logo logo-light">{this.props.t?.("KotAdom")}</div>
         <div className="footer__description description">
           {this.props.t?.("Качество, которое понравится вашему питомцу")}
         </div>

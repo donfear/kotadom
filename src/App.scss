@@ -1,20 +1,27 @@
 @import "~bootstrap/scss/bootstrap";
-
+.dropdown-item.active, .dropdown-item:active  {
+  background-color: #FC8606;
+}
 .logo {
   font-family: 'Monoton', cursive !important;
-  color: #3b5998 !important;
+  color: #FC8606 !important; 
+  &-light {
+    color: white !important;
+  }
 }
-
+.btn-outline-primary {
+  outline: none;
+}
 .btn-primary {
   outline: none !important;
   background: white !important;
-  color: #3b5998 !important;
-  border-color: #3b5998 !important;
+  color: #FC8606 !important;
+  border-color: #FC8606 !important;
 
   &:hover,
   &:active,
   &:focus {
-    background: #3b5998 !important;
+    background: #FC8606 !important;
     color: white !important;
   }
 }
